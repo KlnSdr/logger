@@ -9,6 +9,6 @@ public enum LogLevel {
     }
 
     public String getColorized() {
-        return color.getColor() + this.name() + Colors.RESET.getColor();
+        return ColorHelper.colorize(this.name(), color);
     }
 }
