@@ -1,14 +1,1 @@
-{
-  "remoteRepoUrl": "https://repo.klnsdr.com",
-  "project": {
-    "entry": "",
-    "name": "logger",
-    "version": "1.1-snapshot",
-    "group": "common",
-    "dependencies": []
-  },
-  "compiler": {
-    "version": "11"
-  },
-  "exclude": []
-}
+{"remoteRepoUrl": "https://repo.klnsdr.com", "project": {"entry": "", "name": "logger", "version": "1.1", "group": "common", "dependencies": []}, "compiler": {"version": "11"}, "exclude": []}
