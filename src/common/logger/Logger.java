@@ -58,6 +58,14 @@ public class Logger {
      * Log a message at the error level
      * @param e The exception to log
      */
+    public void trace(Exception e) {
+        trace((Throwable) e);
+    }
+
+    /**
+     * Log a message at the error level
+     * @param e The exception to log
+     */
     public void trace(Throwable e) {
         StringWriter writer = new StringWriter();
         PrintWriter printWriter = new PrintWriter(writer);
