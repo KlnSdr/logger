@@ -9,7 +9,7 @@ import java.util.Date;
  * Logger class
  */
 public class Logger {
-    private static LogLevel logLevel = LogLevel.DEBUG;
+    private static LogLevel logLevel = LogLevel.INFO;
     private final Class<?> clazz;
     private final boolean onlyLevel;
 
